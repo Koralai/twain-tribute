@@ -11,12 +11,19 @@ small {
     font-size: 16px
 }
 
-p, ul {
+p, ul, li {
     line-height: 1.75;
 }
 
-.title {
-    text-align: center;
+a {
+    color: darkcyan;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkslategray;
 }
 
 h1 {
@@ -28,12 +35,24 @@ h1, h3 {
     font-weight: 300;
 }
 
+.title {
+    text-align: center;
+}
+
 .image {
     text-align: center;
 }
 
 .designed-by {
     text-align: center;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: lightgray;
+}
+
+::selection {
+    background: lightgray;
 }
 
 /*@media (max-width:991px) {
