@@ -1,4 +1,12 @@
 
+/*Overriding FlexBox grid*/
+
+.row {
+    margin: 0;
+}
+
+/*Custom styling*/
+
 body {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -8,7 +16,7 @@ body {
 }
 
 small {
-    font-size: 16px
+    font-size: 15px
 }
 
 p, ul, li {
@@ -27,7 +35,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 53px;
+    font-size: 46px;
 }
 
 h1, h3 {
@@ -54,15 +62,3 @@ h1, h3 {
 ::selection {
     background: lightgray;
 }
-
-/*@media (max-width:991px) {
-    .image {
-        text-align: center;
-    }
-}
-
-@media (min-width:992px) {
-    .image {
-        text-align: right;
-    }
-}*/
